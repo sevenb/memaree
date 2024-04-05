@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <!-- Meta Tags -->
+     
+     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+     <!-- Author -->
+     <meta name="author" content="Memaree">
+     <!-- description -->
+     <meta name="description" content="Memaree is an innovative social platform that prioritizes privacy and fosters authentic connections.
+     Privacy-Centric Design: Memaree's customizable Groups and three-feed system allow users to curate their content and choose who sees what, giving them complete control over their online presence.">
+     <!-- keywords -->
+     <meta name="keywords" content="Social Network, Privacy, Community, Connection, Content, Mental Health, Memory">
+     <!-- Page Title -->
+     <title>Memaree - A New Social Platform Built for Privacy</title>
+    
+    <!-- Favicon -->
+    <link href="./favicon/favicon.ico" rel="icon">
+    <!-- Bundle -->
+    <link href="./files/bundle.min.css" rel="stylesheet">
+    <link href="./files/revolution-settings.min.css" rel="stylesheet">
+    <!-- Plugin Css -->
+    <link href="./files/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- Style Sheet -->
+    <link href="./files/style.css" rel="stylesheet">
+
+   
+    <style>
+        video {
+            object-fit: cover;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    </style>
+
+
+</head>
+
+<body data-offset="90" data-spy="scroll" data-target=".navbar">
+
+<!--start loader-->
+<div class="loader" style="display: none;">
+    <div class="cssload-loader">
+        <div class="cssload-inner cssload-one"></div>
+        <div class="cssload-inner cssload-two"></div>
+        <div class="cssload-inner cssload-three"></div>
+    </div>
+</div>
+<!--loader end-->
+
+<!--Header Start-->
+<header>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-box-round">
+        <div class="container">
+            <a href="javascript:void(0)" title="Logo" class="logo scroll">
+                <!--Logo Default-->
+                <img src="assets/full_logo_white.svg" alt="logo" class="logo-light default">
+                <!--Logo Sticky-->
+                <img src="assets/full_logo_black.svg" alt="logo" class="logo-dark">
+            </a>
+
+            <!--Nav Links-->
+            <div class="collapse navbar-collapse" id="megaone">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link scroll active" href="#home">Home</a>
+                    <a class="nav-link scroll" href="#about">About</a>
+                    <a class="nav-link scroll" href="">Privacy Policy</a>
+                    <a class="nav-link" target="_blank" href="mailto:contact@memaree.com">Contact</a>
+                </div>
+            </div>
+
+            <!--Side Menu Button-->
+                <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+        </div>
+    </nav>
+
+    <!--Side Nav-->
+    <div class="side-menu">
+        <div class="inner-wrapper">
+            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="mailto:contact@memaree.com">Contact</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+
+            <div class="side-footer text-white w-100">
+
+                <p class="text-white">© 2023 Memaree. Made With Love In Canada</p>
+            </div>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+    <!-- End side menu -->
+
+</header>
+<!--Header end-->
+
+<section class="single-items center-block parallax m-0" id="home" style="background-color:#000">
+   
+    <div class="container" style="">
+        <div class="row">
+            <div class="col-md-12 center-col ">
+                <div class="area-heading text-center wow fadeInUp front">
+
+                    <h1 class="area-title text-capitalize text-white font-weight-100" style="padding-bottom: 30px;font-family:'Poppins'">
+                        <strong >A New Social Platform<br>Built for Privacy</strong>
+                    </h1>
+         
+                        <a data-fancybox="group-two" href="https://apps.apple.com/us/app/memaree/id6447773699" target="_blank" class="btn btn-transparent-white btn-rounded btn-rounded btn-large mt-3" ><img alt="Downloaad for iOS" src="assets/applelogo.svg">Coming soon</a>&nbsp;&nbsp;
+                        <a data-fancybox="group-two" href="" class="btn btn-transparent-white btn-rounded btn-rounded btn-large mt-3" >
+                            <img alt="Download for Android" src="assets/androidlogo.svg">Coming soon</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Video background 1 section-->
+     <video playsinline autoplay muted loop poster="" id="bgvid">
+        <source src="" type="video/mp4">
+    </video>
+
+    <script>
+
+        const bgVideos = [
+            "videos/bg.mp4", 
+            "videos/bg2.mp4", 
+            "videos/bg3.mp4" , 
+            "videos/bg4.mp4",
+            "videos/bg5.mp4",
+            "videos/bg6.mp4",
+            "videos/bg7.mp4",
+            "videos/bg8.mp4",
+            "videos/bg9.mp4",
+            "videos/bg10.mp4",
+            "videos/bg11.mp4",
+            "videos/bg12.mp4",
+            "videos/bg13.mp4",
+            "videos/bg14.mp4",
+            "videos/bg15.mp4",
+            "videos/bg16.mp4",
+            "videos/bg17.mp4",
+            "videos/bg18.mp4",
+            "videos/bg19.mp4",
+            "videos/bg20.mp4",
+            "videos/bg21.mp4",
+            "videos/bg22.mp4",
+            "videos/bg23.mp4",
+            "videos/bg24.mp4",
+            "videos/bg25.mp4"
+        ];
+        
+       
+        const randomNum = Math.floor( Math.random() * (bgVideos.length-1) );
+        const randomVideo = bgVideos[ randomNum+1 ];
+       
+        //# access the required video tag
+        const myVid = document.getElementById('bgvid');
+        
+        //# load and play the new "src" file
+        myVid.src = randomVideo;
+        myVid.load();
+        myVid.play();
+        
+        </script>
+
+
+</section>
+
+
+<section class="single-items center-block parallax section-2" id="corporate" style="background: url(&quot;assets/bg1.png&quot;) center 834.3px / cover no-repeat fixed;">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-6 col-md-8">
+                <div class="area-heading text-left wow fadeInLeft" style="margin: 200px 0 100px 0;">
+                    <h3 class="area-title text-capitalize alt-font text-white mb-2 font-weight-100">
+                        <strong >
+                            Connect with Yourself</strong>
+                    </h3>
+                    <p class="text-white" style="font-weight:400;font-size:20px">Memaree gives your story a home,<br>where you can <b>focus on the content<br>you care about most.</b></p>
+                    <a class="btn btn-white btn-rounded btn-large mt-3 scroll" href="#home">Download Memaree</a>
+                </div>
+            </div>
+            <div class="col-lg-6"> <img alt="Connect with Yourself" class="device" src="assets/device1.png"></div>
+        </div>
+    </div>
+  
+</section>
+
+
+<section class="single-items center-block parallax section-2" id="creative" style="background: url(&quot;assets/bg2.png&quot;) center 417.15px / cover no-repeat fixed;">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6"> <img alt="Share with Your Circle" class="device" src="assets/device2.png"></div>
+
+
+            <div class="col-lg-6 center-col">
+
+
+                
+                <div class="area-heading text-left wow fadeInRight" style="margin: 200px 0 100px 0px;">
+
+                        <h3 class="area-title text-capitalize alt-font text-white mb-2 font-weight-100">
+                            <strong >Share<br/>with Your<br/>Circle</strong>
+                        </h3>
+
+                    <p class="text-white font-weight-300" style="font-weight:400;font-size:20px">Memaree’s Circle feed allows you to<br>share experiences <b>with your<br>personal circle--</b> and no one else. </p>
+                    <a class="btn btn-white btn-rounded btn-large mt-3 scroll" href="#home">Download Memaree</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="single-items center-block parallax section-3" id="seo" style="background: url(&quot;assets/bg3.png&quot;) center 1668.6px / cover no-repeat fixed;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-8">
+                <div class="area-heading text-left wow fadeInLeft" style="margin: 200px 0 100px 0;">
+                    <h3 class="area-title text-capitalize alt-font text-white mb-2 font-weight-100">
+                        <strong> Share Your Vision with the World</strong>
+                    </h3>
+                    <p class="text-white font-weight-300" style="font-weight:400;font-size:20px"> 
+                        Memaree’s Vision Feed is designed to<br> <b>showcase the content you want to<br>share publicly.</b> 
+                        </p>
+                   
+                    <a class="btn btn-white btn-rounded btn-large mt-3 scroll" href="#home">Download Memaree</a>
+                </div>
+
+            </div>
+            <div class="col-lg-6"> <img alt="Share Your Vision with the World" class="device" src="assets/device3.png"></div>
+        </div>
+    </div>
+</section>
+
+<section class="single-items center-block parallax section-4" id="creative" style="background: url(&quot;assets/bg4.png&quot;) center 417.15px / cover no-repeat fixed;">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6"> <img alt="Control the Content You See Using Flipside" class="device" src="assets/device5.png"></div>
+
+
+            <div class="col-lg-6 center-col">
+
+
+                
+                <div class="area-heading text-left wow fadeInRight" style="margin: 200px 0 100px 0px;">
+
+                        <h3 class="area-title text-capitalize alt-font text-white mb-2 font-weight-100">
+                            <strong>Control the Content You See Using Flipside</strong>
+                          
+                        </h3>
+
+                    <p class="text-white font-weight-300" style="font-weight:400;font-size:20px">Memaree gives you the <b>power of AI<br>and Machine Learning to </b>see more of<br>the content you love.</p>
+                    <a class="btn btn-white btn-rounded btn-large mt-3 scroll" href="#home">Download Memaree</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="single-items center-block parallax section-5" id="seo" style="background: url(&quot;assets/bg5.png&quot;) center 1668.6px / cover no-repeat fixed;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-8">
+                <div class="area-heading text-left wow fadeInLeft" style="margin: 200px 0 100px 0;">
+                    <h3 class="area-title text-capitalize alt-font text-white mb-2 font-weight-100">
+                        <strong>Create Groups and Share with Friends</strong>
+                    </h3>
+                    <p class="text-white font-weight-300" style="font-weight:400;font-size:20px"> 
+                        Groups lets you <b>create communities </b><br>within the app so you can share what<br>you want with who you want. 
+                        </p>
+                   
+                    <a class="btn btn-white btn-rounded btn-large mt-3 scroll" href="#home">Download Memaree</a>
+                </div>
+
+            </div>
+            <div class="col-lg-6"> <img alt="Groups lets you create communities within the app so you can share what you want with who you want." class="device" src="assets/device4.png"></div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--Single portfolio item nine-->
+<section id="about" class="single-items center-block parallax section-6" style="background: url(&quot;assets/bg6.png&quot;) center 3337.2px / cover no-repeat fixed;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-8 col-xs-11">
+                <div class="area-heading text-left wow fadeInLeft" style="margin: 100px 0 100px 0;">
+                    <h3 class="area-title text-capitalize alt-font text-white mb-2 font-weight-100">
+                        <strong>About</strong>
+                    </h3>
+                    <p class="text-white" style="font-weight:400">Memaree is a social media app that allows users to create and share content in a safe and private environment. With the ability to create Groups for collaborative content creation and the option to share posts with a select group of people in their Circle or the with the world in their Vision, Memaree provides a unique and versatile platform for social connection. Users can fearlessly express themselves and share memories with those closest to them, all while maintaining control over their privacy.
+                    </p>
+                    <a class="btn btn-transparent-white btn-rounded btn-large mt-3 scroll" href="#home">Download Memaree</a>
+                    <a class="btn btn-transparent-white btn-rounded btn-large mt-3 scroll" href="mailto:contact@memaree.com">Contact Us</a>
+                </div>
+            </div> <div class="col-lg-6"> <img alt="Memaree" class="device" src="assets/logo_about.svg" style="width:340px;margin:140px 0 0 120px;"></div>
+        </div>
+    </div>
+   
+</section>
+
+<!--Footer Start-->
+<section class="bg-light text-center">
+    <h2 class="d-none">hidden</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="assets/full_logo_black.svg" style="margin-bottom:50px;width: 30%;">
+                <div class="footer-social">
+                    <ul class="list-unstyled">
+                        <li><a class="wow fadeInUp" href="https://www.linkedin.com/company/memaree/" target="_blank">
+                            <svg fill="#000000"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            viewBox="0 0 310 310" xml:space="preserve">
+                       <g id="XMLID_801_">
+                           <path id="XMLID_802_" d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73
+                               C77.16,101.969,74.922,99.73,72.16,99.73z"/>
+                           <path id="XMLID_803_" d="M41.066,0.341C18.422,0.341,0,18.743,0,41.362C0,63.991,18.422,82.4,41.066,82.4
+                               c22.626,0,41.033-18.41,41.033-41.038C82.1,18.743,63.692,0.341,41.066,0.341z"/>
+                           <path id="XMLID_804_" d="M230.454,94.761c-24.995,0-43.472,10.745-54.679,22.954V104.73c0-2.761-2.238-5-5-5h-59.599
+                               c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5h62.097c2.762,0,5-2.238,5-5v-98.918c0-33.333,9.054-46.319,32.29-46.319
+                               c25.306,0,27.317,20.818,27.317,48.034v97.204c0,2.762,2.238,5,5,5H305c2.762,0,5-2.238,5-5V194.995
+                               C310,145.43,300.549,94.761,230.454,94.761z"/>
+                       </g>
+                       </svg></a></li>
+                        <li><a class="wow fadeInDown" href="https://www.instagram.com/memareeinc/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></li>
+                        <li><a class="wow fadeInUp" href="https://twitter.com/MemareeInc"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a></li>
+                       
+                      
+                    </ul>
+                </div>
+                <p class="company-about fadeIn">© 2023 Memaree. Made With Love In <a href="javascript:void(0);">Canada</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer End-->
+
+<!--Scroll Top-->
+<a class="scroll-top-arrow" href="javascript:void(0);" style="display: none;"><i class="fas fa-angle-up"></i></a>
+<!--Scroll Top End-->
+
+<!-- JavaScript -->
+<script src="./files/bundle.min.js"></script>
+<!-- Plugin Js -->
+<!-- <script src="./files/jquery.appear.js"></script> -->
+<!-- <script src="./files/jquery.fancybox.min.js"></script> -->
+<script src="./files/parallaxie.min.js"></script>
+
+
+<script src="./files/script.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="./files/imagesloaded.js"></script>
+<script src="./files/enquire.min.js"></script>
+<script src="./files/skrollr.js"></script>
+<script src="./files/_main.js"></script>
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D2JPD5KRWQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D2JPD5KRWQ');
+
+ 
+
+</script>
+
+
+</body></html>
